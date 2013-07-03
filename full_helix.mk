@@ -17,8 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.use_data_netmgrd=true \
   ro.moz.ril.emergency_by_default=true \
   ro.moz.omx.hw.max_width=800 \
-  ro.moz.omx.hw.max_height=480 \
-  ro.sf.lcd_density=240
+  ro.moz.omx.hw.max_height=480
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_helix
